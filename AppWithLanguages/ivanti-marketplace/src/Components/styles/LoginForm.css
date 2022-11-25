@@ -1,0 +1,26 @@
+.loginform{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginform-container{
+    text-align: center;
+}
+
+.loginform-input input{
+    width: 100%;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.loginform-container button{
+    width: 100%;
+    font-size: 20px;
+}
+
+.loginform-container p{
+    text-align: left;
+    padding-top: 15px;
+}

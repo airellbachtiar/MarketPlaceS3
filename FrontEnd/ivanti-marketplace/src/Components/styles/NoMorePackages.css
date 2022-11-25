@@ -1,0 +1,29 @@
+.package-card-show-more-button {
+  position: absolute;
+  bottom: 8px;
+  right: 0px;
+  left: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #670678;
+  border: none;
+  color: white;
+  width: 70%;
+}
+
+.package-card-title-nopackage{
+  position: absolute;
+  top: 20%;
+  font-size: 3vh;
+}
+
+.title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-style: bold;
+}

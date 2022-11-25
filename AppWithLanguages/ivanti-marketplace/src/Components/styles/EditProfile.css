@@ -1,0 +1,42 @@
+.editprofile{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.editprofile-container{
+    text-align: center; 
+}
+
+.editprofile-picture{
+    position: relative;
+}
+
+.editprofile-profilepicture{
+    font-size: 200px;
+}
+
+.editprofile-picture button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.4;
+    background-color: transparent;
+}
+
+.editprofile-input input{
+    width: 100%;
+    font-size: 28px;
+    margin-top: 25px;
+}
+
+.editprofile-button{
+    text-align: right;
+    padding-top: 20px;
+}
+
+.editprofile-button button{
+    background-color: grey;
+}

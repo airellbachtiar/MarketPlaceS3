@@ -1,0 +1,26 @@
+.signupform{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.signupform-container span{
+    display: block;
+    font-size: 28px;
+}
+
+.signupform-input input{
+    width: 100%;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.signupform-container button{
+    width: 100%;
+    font-size: 20px;
+}
+
+.signupform-container p{
+    padding-top: 15px;
+}

@@ -1,0 +1,81 @@
+.myprofile{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 30px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 400px;
+    max-height: 700px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: auto;
+}
+
+.myprofile .myprofile-title{
+    color: var(--gray-dark);
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.myprofile-container{
+    text-align: center;
+}
+
+.myprofile-picture{
+    position: relative;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-color: var(--white-standard);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.myprofile-profilepicture{
+    font-size: 200px;
+}
+
+.myprofile-edit span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.myprofile-edit span a{
+    text-decoration: none;
+    color: var(--gray-dark);
+}
+
+.myprofile-edit span a:hover{
+    color: var(--orange-hover);
+}
+
+.myprofile-detail{
+    color: var(--gray-dark);
+    margin-top: 40px;
+}
+
+.myprofile-detail label {
+    text-align: left;
+    display: block;
+}
+
+.myprofile-detail input{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-left: 3px solid #ddd;
+    border-bottom: 3px solid #ddd;
+}

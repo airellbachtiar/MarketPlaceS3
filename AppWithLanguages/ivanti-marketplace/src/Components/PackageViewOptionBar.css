@@ -1,0 +1,23 @@
+.package-view-option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.package-view-option .category-tabs{
+    display: flex;
+    width: 50%;
+    overflow: auto;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.package-view-option .category-tabs::-webkit-scrollbar { 
+    display: none;
+}
+
+.package-view-option button{
+    height: 50px;
+}

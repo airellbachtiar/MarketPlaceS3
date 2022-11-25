@@ -1,0 +1,87 @@
+.package-form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.upload_container label {
+    text-align: left;
+    display: block;
+    color: var(--gray-dark);
+}
+
+.upload_container input,
+.upload_container textarea,
+.upload_container select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+}
+
+.upload_container textarea {
+    height: 100px;
+    max-width: 100%;
+    max-height: 130px;
+}
+
+.upload_container {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 30px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 400px;
+    max-height: 700px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: auto;
+}
+
+.upload_container input, .upload_container textarea, .upload_container select {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-left: 3px solid #ddd;
+    border-bottom: 3px solid #ddd;
+}
+
+.upload_container select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+  }
+
+.upload_container input:focus, .upload_container textarea:focus, .upload_container select:focus {
+    outline: none;
+    border-left: 3px solid var(--red-standard);
+    border-bottom: 3px solid var(--red-standard);
+}
+
+.upload_container button {
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #670678;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .upload_container button:hover{
+    background-color: var(--purple-light);
+  }
+  
+  .upload_container button:active {
+    background-color: var(--purple-dark);
+  }

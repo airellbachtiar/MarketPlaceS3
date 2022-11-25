@@ -1,0 +1,58 @@
+plugins {
+	id 'org.springframework.boot' version '2.6.5'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+	id "org.sonarqube" version "3.3"
+}
+
+group = 'nl.fontys'
+//version = '0.0.1-SNAPSHOT'
+//sourceCompatibility = '17'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+
+	//jpa
+	implementation 'javax.persistence:javax.persistence-api:2.2'
+	implementation 'javax.validation:validation-api:2.0.1.Final'
+	//implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'mysql:mysql-connector-java:5.1.44'
+
+	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
+
+
+	//Authentication and Authorization
+	implementation 'io.jsonwebtoken:jjwt-api:0.11.2'
+	runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.11.2'
+	runtimeOnly 'io.jsonwebtoken:jjwt-jackson:0.11.2'
+	implementation 'org.springframework.boot:spring-boot-starter-aop'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.springframework.security:spring-security-test'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+sonarqube {
+	properties {
+		property "sonar.projectKey", "Ivanti-MarketPlace"
+		property "sonar.qualitygate.wait", true
+	}
+}

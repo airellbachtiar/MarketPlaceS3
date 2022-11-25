@@ -1,0 +1,29 @@
+.upload-add-package-button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.upload-add-package-button{
+    text-decoration: none;
+    text-align: center;
+    width: 10%;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: var(--yellow-standard);
+    border: 2px solid var(--white-standard);
+    padding: 5px 0;
+    color: var(--gray-dark);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.upload-add-package-button:hover{
+    background-color: var(--orange-hover);
+}
+
+.upload-add-package-button:active{
+    background-color: var(--yellow-standard);
+}

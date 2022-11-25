@@ -1,0 +1,111 @@
+.page2-container {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.home-page-p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.page2-content-container {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 2%;
+}
+
+.packagecard-image {
+    max-height: 300px;
+    border-radius: 8px;
+}
+
+.page2-second-container {
+    margin-left: 15px;
+}
+
+.page2-third-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.page2-filter-title {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.filterbar-image {
+    max-width: 400px;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.page2-fourth-container {
+    width: 100%;
+}
+
+.page2-fourth-container p {
+    margin-top: 10px;
+}
+
+.page34-first-container {
+    margin-left: 8px;
+    margin-right: 8px;
+    display: flex;
+    column-gap: 4%;
+}
+
+.width48 {
+    width: 48%;
+}
+
+.smallTitle {
+    font-size: 14px;
+}
+
+.page34-second-container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+}
+
+.navigationopen-image {
+    border-radius: 8px;
+    max-height: 260px;
+    margin-top: 10px;
+}
+
+.profileclosed-image {
+    border-radius: 8px;
+}
+
+.small-title-2 {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.languages-open-image {
+    border-radius: 8px;
+    max-width: 290px;
+    margin-top: 10px;
+}
+
+.page56-container {
+    margin-left: 8px;
+    margin-right: 8px;
+    display: flex;
+    column-gap: 4%;
+    flex-wrap: wrap;
+}
+
+.page56-title {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.page56-content {
+    margin-top: 10px;
+}

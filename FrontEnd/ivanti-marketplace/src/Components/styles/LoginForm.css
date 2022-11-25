@@ -1,0 +1,102 @@
+.loginform{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 30px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 400px;
+    max-height: 700px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: auto;
+}
+
+.loginform-container{
+    text-align: center;
+}
+
+.loginform-header{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.loginform-input{
+    color: var(--gray-dark);
+    margin-top: 40px;
+}
+
+.loginform-input label{
+    text-align: left;
+    display: block;
+}
+
+.loginform-input input{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-left: 3px solid #ddd;
+    border-bottom: 3px solid #ddd;
+}
+
+.loginform-input input:focus{
+    outline: none;
+    border-left: 3px solid var(--red-standard);
+    border-bottom: 3px solid var(--red-standard);
+}
+
+.loginform-container button{
+    margin-top: 40px;
+    width: 30%;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: var(--yellow-standard);
+    border: 2px solid var(--white-standard);
+    padding: 5px 0;
+    color: var(--gray-dark);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.loginform-container button:hover{
+    background-color: var(--orange-hover);
+}
+
+.loginform-container button:active{
+    background-color: var(--yellow-standard);
+}
+
+.loginform-footer{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.loginform-footer a{
+    color: violet;
+    text-decoration: none;
+}
+
+.loginform-footer a:hover{
+    color: var(--purple-light);
+}
+
+.loginform-footer a:active{
+    color: var(--white-standard);
+}
+
+.loginform-errormessage{
+    color: var(--red-standard);
+    font-size: 16px;
+}

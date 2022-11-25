@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.form-package-upload {
+  width: 50%;
+  margin: auto;
+}
+
+.upload_container{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.upload_container label{
+  text-align: left;
+  display: block;
+}
+
+.upload_container input,
+.upload_container textarea,
+.upload_container select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.upload_container button {
+  background-color: #670678;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}

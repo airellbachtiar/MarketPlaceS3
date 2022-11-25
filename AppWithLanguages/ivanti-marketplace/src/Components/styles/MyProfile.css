@@ -1,0 +1,29 @@
+.myprofile{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.myprofile-container{
+    text-align: center; 
+}
+
+.myprofile-picture{
+    position: relative;
+}
+
+.myprofile-profilepicture{
+    font-size: 200px;
+}
+
+.myprofile-edit span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.myprofile-detail{
+    font-size: 36px;
+    margin-top: 40px;
+}

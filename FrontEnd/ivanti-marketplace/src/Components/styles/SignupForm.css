@@ -1,0 +1,104 @@
+.signupform{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 30px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 400px;
+    max-height: 700px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: auto;
+}
+
+.signupform-container{
+    text-align: center;
+}
+
+.signupform-container span{
+    text-align: left;
+    display: block;
+}
+
+.signupform-header{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.signupform-input input{
+    color: var(--gray-dark);
+    margin-top: 40px;
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-left: 3px solid #ddd;
+    border-bottom: 3px solid #ddd;
+}
+
+.signupform-input input:focus{
+    outline: none;
+    border-left: 3px solid var(--red-standard);
+    border-bottom: 3px solid var(--red-standard);
+}
+
+.signupform-container button{
+    width: 30%;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: var(--yellow-standard);
+    border: 2px solid var(--white-standard);
+    padding: 5px 0;
+    color: var(--gray-dark);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signupform-container button:hover{
+    background-color: var(--orange-hover);
+}
+
+.signupform-container button:active{
+    background-color: var(--yellow-standard);
+}
+
+.signupform-footer{
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.signupform-footer a{
+    color: violet;
+    text-decoration: none;
+}
+
+.signupform-footer a:hover{
+    color: var(--purple-light);
+}
+
+.signupform-footer a:active{
+    color: var(--white-standard);
+}
+
+.signupform-container p{
+    padding-top: 15px;
+}
+
+.signupform-errormessage{
+    color: var(--red-standard);
+}
+
+.signupform-errormessage span{
+    font-size: 16px;
+}

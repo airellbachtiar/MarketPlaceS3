@@ -1,0 +1,127 @@
+.package-card {
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  /* 5px rounded corners */
+  width: 170px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 350px;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 1vw;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+.package-card-picture {
+  border-radius: 10px 10px 0 0;
+  width: 170px;
+  height: 170px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.package-card:hover {
+  box-shadow: 0 8px 16px 10px rgba(0, 0, 0, 0.2);
+}
+
+.installed-text {
+  width: 75%;
+  bottom: 8px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+}
+
+.package-card-container {
+  width: 100%;
+  resize: both;
+}
+
+.package-card-title-container {
+  padding: 0 5px;
+}
+
+.package-card-title {
+  margin-top: 8px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: block;
+  font-size: 3.5vw;
+  text-decoration: none;
+  color: var(--gray-dark);
+}
+
+.package-card-title:hover {
+  color: var(--yellow-standard);
+}
+
+.package-card-title:active {
+  color: var(--purple-dark);
+}
+
+.package-card button {
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #670678;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.package-card-install-button {
+  bottom: 8px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #670678;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.package-card-install-button:hover {
+  background-color: var(--purple-light);
+}
+
+.package-card-install-button:active {
+  background-color: var(--purple-dark);
+}
+
+.package-card-installed-text {
+  bottom: 8px;
+  padding: 10px 15px 10px 15px;
+  color: green;
+  font-weight: bold;
+}
+
+.package-card-inactive-text {
+  bottom: 8px;
+  padding: 10px 15px 10px 15px;
+  color: red;
+  font-weight: bold;
+}
+
+.package-card-rating-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.package-card-container-button-trashcan {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.package-card-container-button-trashcan img {
+  max-width: 60%;
+  max-height: 100%;
+}
